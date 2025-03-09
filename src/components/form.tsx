@@ -9,6 +9,7 @@ import { z } from 'zod';
 import { toFormikValidationSchema } from 'zod-formik-adapter';
 import useUserStore from '@/store/storeForm';
 import InterpolatedAnimation from './testAnim';
+import FadeIn from './testFade';
 
 
 const schema = z.object({
@@ -131,6 +132,8 @@ function Form() {
     </Drawer>
     
     <InterpolatedAnimation />
+
+    <FadeIn /> 
 
             {/* Dialog example */}
 
